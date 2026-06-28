@@ -1,0 +1,146 @@
+# Project Analysis Report
+
+## Project Title
+
+**Phishing Email Detector**
+
+## Author
+
+**Shalini D**
+**B.E. Computer Science and Engineering**
+
+---
+
+# 1. Introduction
+
+Phishing is one of the most common cyberattacks used to steal sensitive information such as usernames, passwords, banking credentials, and personal data. Attackers often disguise malicious emails as legitimate communications from trusted organizations.
+
+The **Phishing Email Detector** is a Python-based application that performs basic phishing detection by scanning email messages for predefined suspicious keywords. The project demonstrates how keyword-based analysis can help identify potentially malicious emails and raise user awareness about phishing attacks.
+
+---
+
+# 2. Objective
+
+The primary objectives of this project are:
+
+* Detect common phishing-related keywords in email messages.
+* Alert users when suspicious content is found.
+* Classify the email into a basic risk category.
+* Demonstrate simple text analysis using Python.
+* Increase awareness of phishing techniques.
+
+---
+
+# 3. Problem Statement
+
+Many users unknowingly open phishing emails because they appear genuine. Even simple phishing attempts often contain common words such as **"urgent"**, **"verify"**, **"password"**, or **"click here"**.
+
+This project aims to provide a simple detection mechanism that warns users whenever these suspicious keywords are present.
+
+---
+
+# 4. System Requirements
+
+### Hardware
+
+* Processor: Intel Core i3 or above
+* RAM: 4 GB or higher
+* Storage: 100 MB free space
+
+### Software
+
+* Operating System: Windows, Linux, or macOS
+* Python 3.x
+* Visual Studio Code / PyCharm / IDLE
+
+---
+
+# 5. Methodology
+
+The application follows these steps:
+
+1. Accept an email message from the user.
+2. Convert the text to lowercase.
+3. Compare the message against a predefined phishing keyword list.
+4. Store every matching keyword.
+5. Display suspicious keywords.
+6. Calculate a simple phishing risk level.
+7. Present the final detection result.
+
+---
+
+# 6. Algorithm
+
+1. Start the program.
+2. Initialize the phishing keyword list.
+3. Read the email message.
+4. Convert the message to lowercase.
+5. Search for each keyword.
+6. Store matched keywords.
+7. If matches exist:
+
+   * Display warning.
+   * Display detected keywords.
+   * Calculate risk level.
+8. Otherwise display that no common phishing keywords were detected.
+9. End the program.
+
+---
+
+# 7. Output Analysis
+
+### Safe Email
+
+* No suspicious keywords found.
+* Risk Level: **SAFE**
+
+### Suspicious Email
+
+* One or more phishing keywords detected.
+* Displays matched keywords.
+* Assigns Low, Medium, or High risk based on the number of detected keywords.
+
+---
+
+# 8. Advantages
+
+* Simple and easy to understand.
+* Beginner-friendly Python project.
+* Fast keyword matching.
+* No external libraries required.
+* Easy to extend with additional keywords.
+* Useful for cybersecurity learning.
+
+---
+
+# 9. Limitations
+
+* Uses only keyword matching.
+* Cannot detect advanced phishing attacks.
+* Does not inspect URLs or attachments.
+* Does not use machine learning.
+* May produce false positives or false negatives.
+
+---
+
+# 10. Future Enhancements
+
+* Machine learning-based phishing detection.
+* Natural Language Processing (NLP) for contextual analysis.
+* Malicious URL detection.
+* Email attachment scanning.
+* Graphical User Interface (GUI).
+* Integration with email services for automatic scanning.
+* Real-time phishing threat intelligence.
+
+---
+
+# 11. Conclusion
+
+The **Phishing Email Detector** successfully demonstrates a basic approach to identifying potentially malicious emails using keyword analysis. Although it is intended as an educational project rather than a production-grade security solution, it provides a strong foundation for understanding phishing detection techniques and Python-based text processing. The project can be further enhanced by integrating machine learning, URL analysis, and advanced email security features.
+
+---
+
+# 12. Result
+
+The project successfully identifies suspicious email content by detecting predefined phishing keywords and provides users with an estimated phishing risk level. The application meets its educational objectives and demonstrates the fundamentals of phishing email detection using Python.
