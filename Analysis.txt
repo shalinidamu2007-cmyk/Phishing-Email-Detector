@@ -4,11 +4,15 @@
 
 **Phishing Email Detector**
 
-## Author
+---
+
+## 👩‍💻 Author
 
 **Shalini D**
-**B.E. Computer Science and Engineering**
 
+Cyber Security Intern
+
+DecodeLabs Industrial Training Program
 ---
 
 # 1. Introduction
